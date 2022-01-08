@@ -94,14 +94,6 @@ except:
     import colorama
 
 try:
-    import discord
-except:
-    os.system("pip install discord")
-    import discord
-
-from discord.ext import commands
-
-try:
     import pyautogui
 except:
     os.system("pip install pyautogui")
